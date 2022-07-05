@@ -122,6 +122,10 @@ navegue para dentro da api com <b> $ cd ./backEnd</b> e então installe as depen
 
 <pre><code> $ pip install -r requirements.txt</code></pre>
 
+Agora migrate para transformar a model em database
+
+<pre><code> $ python manage.py migrate</code></pre>
+
 Agora deve ser possível utilizar o comando:
 
 <pre><code> $ python .\manage.py runserver </code></pre>
